@@ -5,7 +5,6 @@
   border: none;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: Georgia; */
 }
 
 body {
@@ -66,7 +65,7 @@ form {
   display: flex;
   position: relative;
   width: fit-content;
-} /* Убираем контур */
+}
 
 input[type="text"] {
   width: 320px;
@@ -93,8 +92,6 @@ button[type="reset"] {
   border: 0;
   display: none;
 
-  /* padding: 0 10px; */
-  /* border-radius: 50%; */
   background-color: rgba(0, 0, 0, 0);
   transition: all 0.2s ease-out;
 
@@ -155,7 +152,6 @@ button:hover > .search__text {
   margin: 0.5rem 0.25rem;
   width: calc(33.33% - 1rem);
   height: calc(3rem * 4 + 5rem);
-  /* max-height: 200pt; */
   background-position: center;
   background-size: cover;
   border-radius: 2px;
@@ -175,7 +171,6 @@ button:hover > .search__text {
   padding-top: 2rem;
   display: flex;
   flex-direction: row;
-  /* background-color: rgba(91, 91, 91); */
   justify-content: space-evenly;
   align-items: center;
 }
@@ -252,8 +247,6 @@ a {
   width: 85%;
   max-height: 580px;
   max-width: 900px;
-  /* position: relative; */
-  /* margin: 0 auto; */
   border-radius: 15px;
 }
 
@@ -351,11 +344,6 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  /* .modalWrapper {
-    height: 50%;
-    width: 90%;
-  } */
-
   .modalWrapper button {
     margin: 0 !important;
   }
